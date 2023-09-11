@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 const DetailsHeader = ({artistId , artistData, songData}) => {
-  console.log(artistData)
+  
   return(
 
     <div className="relative w-full flex flex-col mb-5">

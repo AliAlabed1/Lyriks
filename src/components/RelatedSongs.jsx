@@ -1,6 +1,6 @@
 import SongBar from "./SongBar";
 const RelatedSongs = ({data,isPlaying,activeSong,handlePlayClick,handlePauseClick,artistId}) => {
-  console.log(data)
+  
   return(
      <div className="flex flex-col">
         <h1 className="font-bold text-xl text-white">Related Song:</h1>
